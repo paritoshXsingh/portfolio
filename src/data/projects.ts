@@ -62,6 +62,9 @@ export const projects: Project[] = [
       "/projects/collabspace/1.png",
       "/projects/collabspace/2.png",
       "/projects/collabspace/3.png",
+      "/projects/collabspace/4.png",
+      "/projects/collabspace/5.png",
+      "/projects/collabspace/6.png",
     ],
   },
 
@@ -127,6 +130,8 @@ export const projects: Project[] = [
       "/projects/learnhub/1.png",
       "/projects/learnhub/2.png",
       "/projects/learnhub/3.png",
+      "/projects/learnhub/4.png",
+      "/projects/learnhub/5.png",
     ],
   },
 
@@ -191,6 +196,8 @@ export const projects: Project[] = [
       "/projects/devink/1.png",
       "/projects/devink/2.png",
       "/projects/devink/3.png",
+      "/projects/devink/4.png",
+      "/projects/devink/5.png",
     ],
   },
 ];
