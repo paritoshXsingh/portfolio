@@ -7,14 +7,31 @@ export const skills = {
     "React",
     "Next.js",
     "Tailwind CSS",
-    "Redux",
+    "Shadcn UI",
+    "Redux Toolkit",
   ],
 
-  backend: ["Node.js", "Express.js", "REST API", "JWT Authentication"],
+  backend: [
+    "Node.js",
+    "Express.js",
+    "REST API",
+    "JWT Authentication",
+    "AWS S3",
+    "Multer",
+  ],
 
-  database: ["MongoDB", "Mongoose"],
+  database: ["MongoDB", "MongoDB Atlas", "Mongoose", "Firebase"],
 
-  tools: ["Git", "GitHub", "VS Code", "Postman", "Vercel"],
+  libraries: [
+    "TanStack Query",
+    "Zustand",
+    "React Hook Form",
+    "Zod",
+    "Axios",
+    "Socket.IO",
+  ],
 
-  learning: ["AWS", "System Design", "DSA"],
+  tools: ["Git", "GitHub", "Postman", "VS Code", "Vercel", "Render", "AWS"],
+
+  learning: ["System Design", "Docker", "Redis", "DSA"],
 };

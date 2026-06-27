@@ -4,6 +4,82 @@ export const projects: Project[] = [
   {
     id: 1,
 
+    slug: "cloudvault",
+
+    title: "CloudVault",
+
+    highlight: "Secure Cloud Storage",
+
+    description:
+      "A production-ready cloud storage platform where users can securely upload, organize, search, download, and share files using AWS S3. Built with React, TypeScript, Express, MongoDB Atlas, and modern cloud infrastructure.",
+
+    thumbnail: "/projects/cloudvault/thumbnail.png",
+
+    github: "https://github.com/paritoshXsingh/cloudvault",
+
+    live: "https://cloudvault-olive.vercel.app/login",
+
+    featured: true,
+
+    tech: [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "MongoDB Atlas",
+      "AWS S3",
+      "JWT",
+      "TanStack Query",
+      "Zustand",
+      "React Hook Form",
+      "Zod",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "Multer",
+      "AWS SDK",
+      "Vercel",
+      "Render",
+    ],
+
+    features: [
+      "JWT Authentication",
+      "AWS S3 File Uploads",
+      "Secure File Downloads",
+      "Public Share Links",
+      "Share Link Revocation",
+      "Advanced Search & Filtering",
+      "Sorting by Name, Size and Date",
+      "Storage Usage Dashboard",
+      "Responsive Mobile Dashboard",
+      "Loading Skeletons & Toast Notifications",
+    ],
+
+    challenges: [
+      "Integrating AWS S3 with secure upload and download workflows",
+      "Generating pre-signed URLs for secure file access",
+      "Managing authentication and protected routes",
+      "Designing scalable file metadata architecture using MongoDB",
+    ],
+
+    lessons: [
+      "Learned production cloud storage architecture with AWS S3",
+      "Implemented secure authentication using JWT",
+      "Worked with TanStack Query for server state management",
+      "Built scalable file management with search, filters and sharing",
+    ],
+
+    images: [
+      "/projects/cloudvault/1.png",
+      "/projects/cloudvault/2.png",
+      "/projects/cloudvault/3.png",
+      "/projects/cloudvault/4.png",
+      "/projects/cloudvault/5.png",
+      "/projects/cloudvault/6.png",
+    ],
+  },
+  {
+    id: 2,
+
     slug: "collabspace",
 
     title: "CollabSpace",
@@ -69,7 +145,7 @@ export const projects: Project[] = [
   },
 
   {
-    id: 2,
+    id: 3,
 
     slug: "learnhub",
 
@@ -136,7 +212,7 @@ export const projects: Project[] = [
   },
 
   {
-    id: 3,
+    id: 4,
 
     slug: "devink",
 
